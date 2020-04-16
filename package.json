@@ -1,0 +1,32 @@
+{
+  "name": "@chen940713/utils",
+  "version": "1.0.0",
+  "description": "utils for js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:prod": "NODE_ENV=production rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chen940713/utils"
+  },
+  "author": "chen940713",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chen940713/utils/issues"
+  },
+  "homepage": "https://github.com/chen940713/utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.9.2",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "rollup": "^2.3.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
